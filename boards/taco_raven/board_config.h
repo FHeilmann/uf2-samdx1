@@ -13,7 +13,7 @@
 #define BOARD_ID "TacoRaven_revA"
 
 #define BOOT_USART_MODULE                 SERCOM6
-#define BOOT_USART_MASK                   APBAMASK
+#define BOOT_USART_MASK                   APBDMASK
 #define BOOT_USART_BUS_CLOCK_INDEX        MCLK_APBDMASK_SERCOM6
 #define BOOT_USART_PAD_SETTINGS           UART_RX_PAD1_TX_PAD0
 #define BOOT_USART_PAD3                   PINMUX_UNUSED
