@@ -1,8 +1,6 @@
 #ifndef BOARD_CONFIG_H
 #define BOARD_CONFIG_H
 
-#define __SAMD51N19A__ 1
-
 #define VENDOR_NAME "Voron Design"
 #define PRODUCT_NAME "Taco Raven"
 #define VOLUME_LABEL "TR_Boot"
