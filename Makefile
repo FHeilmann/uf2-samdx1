@@ -63,9 +63,8 @@ COMMON_SRC = \
 	src/flash_$(CHIP_FAMILY).c \
 	src/init_$(CHIP_FAMILY).c \
 	src/startup_$(CHIP_FAMILY).c \
-	src/utils.c
-	#src/usart_sam_ba.c \
-	#src/utils.c
+	src/usart_sam_ba.c \
+	src/utils.c \
 
 SOURCES = $(COMMON_SRC) \
 	src/cdc_enumerate.c \
